@@ -8,7 +8,12 @@ body {
     rgba(227, 137, 240, 1) 43.7%,
     rgba(243, 193, 124, 1) 89.7%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
+  text-align: center;
   margin: 0;
 }
 
@@ -18,11 +23,6 @@ svg {
 }
 
 #wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
   position: relative;
 }
 
